@@ -1,11 +1,13 @@
-import { c as create_ssr_component, b as subscribe, e as escape } from "../../chunks/ssr.js";
+import { T as store_get, V as unsubscribe_stores, S as pop, Q as push } from "../../chunks/index.js";
 import { p as page } from "../../chunks/stores.js";
-const Error = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let $page, $$unsubscribe_page;
-  $$unsubscribe_page = subscribe(page, (value) => $page = value);
-  $$unsubscribe_page();
-  return `<h1>${escape($page.status)}</h1> <p>${escape($page.error?.message)}</p>`;
-});
+import { e as escape_html } from "../../chunks/escaping.js";
+function Error($$payload, $$props) {
+  push();
+  var $$store_subs;
+  $$payload.out += `<h1>${escape_html(store_get($$store_subs ??= {}, "$page", page).status)}</h1> <p>${escape_html(store_get($$store_subs ??= {}, "$page", page).error?.message)}</p>`;
+  if ($$store_subs) unsubscribe_stores($$store_subs);
+  pop();
+}
 export {
   Error as default
 };

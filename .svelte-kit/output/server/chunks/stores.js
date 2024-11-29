@@ -1,6 +1,5 @@
-import { g as getContext } from "./ssr.js";
+import { X as getContext } from "./index.js";
 import "./exports.js";
-import "devalue";
 function get(key, parse = JSON.parse) {
   try {
     return parse(sessionStorage[key]);

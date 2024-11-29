@@ -1,12 +1,15 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.C0pfaB4v.js",
+    "file": "_app/immutable/entry/app.Czyeg17G.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
-      "_scheduler.C5382k6v.js",
-      "_index.m_iIgkgN.js"
+      "_runtime.BrFAUK3q.js",
+      "_render.CTk9GdCv.js",
+      "_disclose-version.CB45EG5S.js",
+      "_store.DUebGK4l.js",
+      "_index-client.BFLvA0Sv.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/client-optimized/nodes/0.js",
@@ -17,19 +20,24 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.BmsSY715.js",
+    "file": "_app/immutable/nodes/0.2lxAaNFF.js",
     "name": "nodes/0",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.C5382k6v.js",
-      "_index.m_iIgkgN.js",
-      "_stores.k8I6xZcz.js",
-      "_entry.cI6M_VwQ.js"
+      "_disclose-version.CB45EG5S.js",
+      "_legacy.FLgBXZ1o.js",
+      "_runtime.BrFAUK3q.js",
+      "_attributes.BaQcBzAr.js",
+      "_lifecycle.DuYTIIR2.js",
+      "_store.DUebGK4l.js",
+      "_stores.CQi4xIsU.js",
+      "_entry.DoOPHFd4.js",
+      "_leikislogo2.DydL3cgi.js"
     ],
     "css": [
-      "_app/immutable/assets/0.DChiU3e3.css"
+      "_app/immutable/assets/0.GfFljXpE.css"
     ],
     "assets": [
       "_app/immutable/assets/logo.CdfuFSTc.png",
@@ -40,70 +48,89 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.BFEVeBRL.js",
+    "file": "_app/immutable/nodes/1.XetM2StB.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.C5382k6v.js",
-      "_index.m_iIgkgN.js",
-      "_stores.k8I6xZcz.js"
+      "_disclose-version.CB45EG5S.js",
+      "_legacy.FLgBXZ1o.js",
+      "_runtime.BrFAUK3q.js",
+      "_render.CTk9GdCv.js",
+      "_lifecycle.DuYTIIR2.js",
+      "_store.DUebGK4l.js",
+      "_stores.CQi4xIsU.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.DxDkn5gf.js",
+    "file": "_app/immutable/nodes/2.BPrLEYeX.js",
     "name": "nodes/2",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_scheduler.C5382k6v.js",
-      "_index.m_iIgkgN.js",
-      "_wood-texture.CUqhIUo3.js"
+      "_disclose-version.CB45EG5S.js",
+      "_legacy.FLgBXZ1o.js",
+      "_runtime.BrFAUK3q.js",
+      "_svelte-head.BABkBnbW.js",
+      "_attributes.BaQcBzAr.js",
+      "_lifecycle.DuYTIIR2.js",
+      "_index-client.BFLvA0Sv.js",
+      "_wood-texture.CUqhIUo3.js",
+      "_leikislogo2.DydL3cgi.js"
     ],
     "css": [
-      "_app/immutable/assets/2.BQHTDTpS.css"
+      "_app/immutable/assets/2.B7yO0MqO.css"
     ],
     "assets": [
       "_app/immutable/assets/BackgroundImage.BxOsKRml.png",
       "_app/immutable/assets/norse.jcG7f86W.png",
-      "_app/immutable/assets/vikingsymbol.DmAip9nr.png"
+      "_app/immutable/assets/vikingsymbol.DmAip9nr.png",
+      "_app/immutable/assets/left-banner.uuAdaOhh.png",
+      "_app/immutable/assets/vikingetogt_skjold.CVjRLIFQ.png",
+      "_app/immutable/assets/vikingetogt_axe.CuAeyrr8.png",
+      "_app/immutable/assets/leikislogo1._ZBXKB8q.png",
+      "_app/immutable/assets/flyer.C4lnXARR.png"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/3.js": {
-    "file": "_app/immutable/nodes/3.Dh68tpeU.js",
+    "file": "_app/immutable/nodes/3.BkrZYmY3.js",
     "name": "nodes/3",
     "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index.R8ovVqwX.js",
-      "_scheduler.C5382k6v.js",
-      "_index.m_iIgkgN.js",
+      "_disclose-version.CB45EG5S.js",
+      "_legacy.FLgBXZ1o.js",
+      "_runtime.BrFAUK3q.js",
+      "_svelte-head.BABkBnbW.js",
+      "_attributes.BaQcBzAr.js",
       "_wood-texture.CUqhIUo3.js"
     ],
     "css": [
-      "_app/immutable/assets/3.BYZRS1-X.css"
+      "_app/immutable/assets/3.DKZ02ZZR.css"
     ],
     "assets": [
       "_app/immutable/assets/vikingbackground.DA5Dop9y.png"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/4.js": {
-    "file": "_app/immutable/nodes/4.DWYS4MtM.js",
+    "file": "_app/immutable/nodes/4.y5_1eljw.js",
     "name": "nodes/4",
     "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index.R8ovVqwX.js",
-      "_scheduler.C5382k6v.js",
-      "_index.m_iIgkgN.js",
+      "_disclose-version.CB45EG5S.js",
+      "_legacy.FLgBXZ1o.js",
+      "_runtime.BrFAUK3q.js",
+      "_svelte-head.BABkBnbW.js",
+      "_attributes.BaQcBzAr.js",
       "_wood-texture.CUqhIUo3.js"
     ],
     "css": [
-      "_app/immutable/assets/4.DcE9kuVU.css"
+      "_app/immutable/assets/4.D1RpyY23.css"
     ],
     "assets": [
       "_app/immutable/assets/norse_chest.BBhegAeS.png",
@@ -117,33 +144,87 @@
       "_app/immutable/assets/Hnefetafl.DY9TNmKa.png"
     ]
   },
-  "_entry.cI6M_VwQ.js": {
-    "file": "_app/immutable/chunks/entry.cI6M_VwQ.js",
+  "_attributes.BaQcBzAr.js": {
+    "file": "_app/immutable/chunks/attributes.BaQcBzAr.js",
+    "name": "attributes",
+    "imports": [
+      "_runtime.BrFAUK3q.js"
+    ]
+  },
+  "_disclose-version.CB45EG5S.js": {
+    "file": "_app/immutable/chunks/disclose-version.CB45EG5S.js",
+    "name": "disclose-version",
+    "imports": [
+      "_runtime.BrFAUK3q.js"
+    ]
+  },
+  "_entry.DoOPHFd4.js": {
+    "file": "_app/immutable/chunks/entry.DoOPHFd4.js",
     "name": "entry",
     "imports": [
-      "_scheduler.C5382k6v.js"
+      "_runtime.BrFAUK3q.js"
     ]
   },
-  "_index.R8ovVqwX.js": {
-    "file": "_app/immutable/chunks/index.R8ovVqwX.js",
-    "name": "index"
-  },
-  "_index.m_iIgkgN.js": {
-    "file": "_app/immutable/chunks/index.m_iIgkgN.js",
-    "name": "index",
+  "_index-client.BFLvA0Sv.js": {
+    "file": "_app/immutable/chunks/index-client.BFLvA0Sv.js",
+    "name": "index-client",
     "imports": [
-      "_scheduler.C5382k6v.js"
+      "_runtime.BrFAUK3q.js"
     ]
   },
-  "_scheduler.C5382k6v.js": {
-    "file": "_app/immutable/chunks/scheduler.C5382k6v.js",
-    "name": "scheduler"
+  "_legacy.FLgBXZ1o.js": {
+    "file": "_app/immutable/chunks/legacy.FLgBXZ1o.js",
+    "name": "legacy",
+    "imports": [
+      "_runtime.BrFAUK3q.js"
+    ]
   },
-  "_stores.k8I6xZcz.js": {
-    "file": "_app/immutable/chunks/stores.k8I6xZcz.js",
+  "_leikislogo2.DydL3cgi.js": {
+    "file": "_app/immutable/chunks/leikislogo2.DydL3cgi.js",
+    "name": "leikislogo2",
+    "assets": [
+      "_app/immutable/assets/leikislogo2.2TjEnDla.png"
+    ]
+  },
+  "_lifecycle.DuYTIIR2.js": {
+    "file": "_app/immutable/chunks/lifecycle.DuYTIIR2.js",
+    "name": "lifecycle",
+    "imports": [
+      "_runtime.BrFAUK3q.js"
+    ]
+  },
+  "_render.CTk9GdCv.js": {
+    "file": "_app/immutable/chunks/render.CTk9GdCv.js",
+    "name": "render",
+    "imports": [
+      "_runtime.BrFAUK3q.js",
+      "_svelte-head.BABkBnbW.js",
+      "_disclose-version.CB45EG5S.js"
+    ]
+  },
+  "_runtime.BrFAUK3q.js": {
+    "file": "_app/immutable/chunks/runtime.BrFAUK3q.js",
+    "name": "runtime"
+  },
+  "_store.DUebGK4l.js": {
+    "file": "_app/immutable/chunks/store.DUebGK4l.js",
+    "name": "store",
+    "imports": [
+      "_runtime.BrFAUK3q.js"
+    ]
+  },
+  "_stores.CQi4xIsU.js": {
+    "file": "_app/immutable/chunks/stores.CQi4xIsU.js",
     "name": "stores",
     "imports": [
-      "_entry.cI6M_VwQ.js"
+      "_entry.DoOPHFd4.js"
+    ]
+  },
+  "_svelte-head.BABkBnbW.js": {
+    "file": "_app/immutable/chunks/svelte-head.BABkBnbW.js",
+    "name": "svelte-head",
+    "imports": [
+      "_runtime.BrFAUK3q.js"
     ]
   },
   "_wood-texture.CUqhIUo3.js": {
@@ -154,12 +235,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.C6iQXvQv.js",
+    "file": "_app/immutable/entry/start.GbIlBsl1.js",
     "name": "entry/start",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.cI6M_VwQ.js"
+      "_entry.DoOPHFd4.js"
     ]
   },
   "src/lib/fonts/BebasNeue-Regular.otf": {
@@ -189,6 +270,22 @@
   "src/lib/images/cattle.png": {
     "file": "_app/immutable/assets/cattle.DITkZ9zf.png",
     "src": "src/lib/images/cattle.png"
+  },
+  "src/lib/images/flyer.png": {
+    "file": "_app/immutable/assets/flyer.C4lnXARR.png",
+    "src": "src/lib/images/flyer.png"
+  },
+  "src/lib/images/left-banner.png": {
+    "file": "_app/immutable/assets/left-banner.uuAdaOhh.png",
+    "src": "src/lib/images/left-banner.png"
+  },
+  "src/lib/images/leikislogo1.png": {
+    "file": "_app/immutable/assets/leikislogo1._ZBXKB8q.png",
+    "src": "src/lib/images/leikislogo1.png"
+  },
+  "src/lib/images/leikislogo2.png": {
+    "file": "_app/immutable/assets/leikislogo2.2TjEnDla.png",
+    "src": "src/lib/images/leikislogo2.png"
   },
   "src/lib/images/logo.png": {
     "file": "_app/immutable/assets/logo.CdfuFSTc.png",
@@ -229,6 +326,14 @@
   "src/lib/images/vikingbackground.png": {
     "file": "_app/immutable/assets/vikingbackground.DA5Dop9y.png",
     "src": "src/lib/images/vikingbackground.png"
+  },
+  "src/lib/images/vikingetogt_axe.png": {
+    "file": "_app/immutable/assets/vikingetogt_axe.CuAeyrr8.png",
+    "src": "src/lib/images/vikingetogt_axe.png"
+  },
+  "src/lib/images/vikingetogt_skjold.png": {
+    "file": "_app/immutable/assets/vikingetogt_skjold.CVjRLIFQ.png",
+    "src": "src/lib/images/vikingetogt_skjold.png"
   },
   "src/lib/images/vikingsymbol.png": {
     "file": "_app/immutable/assets/vikingsymbol.DmAip9nr.png",

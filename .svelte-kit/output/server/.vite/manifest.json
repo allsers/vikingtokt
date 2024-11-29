@@ -8,37 +8,44 @@
       "_internal.js"
     ]
   },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes",
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
   "_exports.js": {
     "file": "chunks/exports.js",
     "name": "exports"
   },
   "_index.js": {
     "file": "chunks/index.js",
-    "name": "index",
-    "imports": [
-      "_prod-ssr.js"
-    ]
+    "name": "index"
   },
   "_internal.js": {
     "file": "chunks/internal.js",
     "name": "internal",
     "imports": [
-      "_ssr.js"
+      "_index.js"
     ]
   },
-  "_prod-ssr.js": {
-    "file": "chunks/prod-ssr.js",
-    "name": "prod-ssr"
-  },
-  "_ssr.js": {
-    "file": "chunks/ssr.js",
-    "name": "ssr"
+  "_leikislogo2.js": {
+    "file": "chunks/leikislogo2.js",
+    "name": "leikislogo2",
+    "assets": [
+      "_app/immutable/assets/leikislogo2.2TjEnDla.png"
+    ]
   },
   "_stores.js": {
     "file": "chunks/stores.js",
     "name": "stores",
     "imports": [
-      "_ssr.js",
+      "_index.js",
       "_exports.js"
     ]
   },
@@ -49,14 +56,15 @@
       "_app/immutable/assets/wood-texture.CG1FV0Ag.png"
     ]
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
     "file": "entries/fallbacks/error.svelte.js",
     "name": "entries/fallbacks/error.svelte",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_stores.js"
+      "_index.js",
+      "_stores.js",
+      "_escaping.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
@@ -65,10 +73,9 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
     "isEntry": true,
     "imports": [
-      "_prod-ssr.js",
+      "_index.js",
       "_internal.js",
-      "_exports.js",
-      "_ssr.js"
+      "_exports.js"
     ]
   },
   "src/lib/fonts/BebasNeue-Regular.otf": {
@@ -98,6 +105,22 @@
   "src/lib/images/cattle.png": {
     "file": "_app/immutable/assets/cattle.DITkZ9zf.png",
     "src": "src/lib/images/cattle.png"
+  },
+  "src/lib/images/flyer.png": {
+    "file": "_app/immutable/assets/flyer.C4lnXARR.png",
+    "src": "src/lib/images/flyer.png"
+  },
+  "src/lib/images/left-banner.png": {
+    "file": "_app/immutable/assets/left-banner.uuAdaOhh.png",
+    "src": "src/lib/images/left-banner.png"
+  },
+  "src/lib/images/leikislogo1.png": {
+    "file": "_app/immutable/assets/leikislogo1._ZBXKB8q.png",
+    "src": "src/lib/images/leikislogo1.png"
+  },
+  "src/lib/images/leikislogo2.png": {
+    "file": "_app/immutable/assets/leikislogo2.2TjEnDla.png",
+    "src": "src/lib/images/leikislogo2.png"
   },
   "src/lib/images/logo.png": {
     "file": "_app/immutable/assets/logo.CdfuFSTc.png",
@@ -139,6 +162,14 @@
     "file": "_app/immutable/assets/vikingbackground.DA5Dop9y.png",
     "src": "src/lib/images/vikingbackground.png"
   },
+  "src/lib/images/vikingetogt_axe.png": {
+    "file": "_app/immutable/assets/vikingetogt_axe.CuAeyrr8.png",
+    "src": "src/lib/images/vikingetogt_axe.png"
+  },
+  "src/lib/images/vikingetogt_skjold.png": {
+    "file": "_app/immutable/assets/vikingetogt_skjold.CVjRLIFQ.png",
+    "src": "src/lib/images/vikingetogt_skjold.png"
+  },
   "src/lib/images/vikingsymbol.png": {
     "file": "_app/immutable/assets/vikingsymbol.DmAip9nr.png",
     "src": "src/lib/images/vikingsymbol.png"
@@ -153,11 +184,13 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_stores.js"
+      "_index.js",
+      "_stores.js",
+      "_attributes.js",
+      "_leikislogo2.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.BpMuWS_f.css"
+      "_app/immutable/assets/_layout.Bypv6Qrx.css"
     ],
     "assets": [
       "_app/immutable/assets/logo.CdfuFSTc.png",
@@ -173,16 +206,23 @@
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_wood-texture.js"
+      "_index.js",
+      "_wood-texture.js",
+      "_leikislogo2.js",
+      "_attributes.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.BQHTDTpS.css"
+      "_app/immutable/assets/_page.B7yO0MqO.css"
     ],
     "assets": [
       "_app/immutable/assets/BackgroundImage.BxOsKRml.png",
       "_app/immutable/assets/norse.jcG7f86W.png",
-      "_app/immutable/assets/vikingsymbol.DmAip9nr.png"
+      "_app/immutable/assets/vikingsymbol.DmAip9nr.png",
+      "_app/immutable/assets/left-banner.uuAdaOhh.png",
+      "_app/immutable/assets/vikingetogt_skjold.CVjRLIFQ.png",
+      "_app/immutable/assets/vikingetogt_axe.CuAeyrr8.png",
+      "_app/immutable/assets/leikislogo1._ZBXKB8q.png",
+      "_app/immutable/assets/flyer.C4lnXARR.png"
     ]
   },
   "src/routes/+page.ts": {
@@ -197,11 +237,12 @@
     "src": "src/routes/crew/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_wood-texture.js"
+      "_index.js",
+      "_wood-texture.js",
+      "_attributes.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.BYZRS1-X.css"
+      "_app/immutable/assets/_page.DKZ02ZZR.css"
     ],
     "assets": [
       "_app/immutable/assets/vikingbackground.DA5Dop9y.png"
@@ -211,10 +252,7 @@
     "file": "entries/pages/crew/_page.ts.js",
     "name": "entries/pages/crew/_page.ts",
     "src": "src/routes/crew/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "_index.js"
-    ]
+    "isEntry": true
   },
   "src/routes/shop/+page.svelte": {
     "file": "entries/pages/shop/_page.svelte.js",
@@ -222,11 +260,12 @@
     "src": "src/routes/shop/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_wood-texture.js"
+      "_index.js",
+      "_wood-texture.js",
+      "_attributes.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DcE9kuVU.css"
+      "_app/immutable/assets/_page.D1RpyY23.css"
     ],
     "assets": [
       "_app/immutable/assets/norse_chest.BBhegAeS.png",
@@ -244,9 +283,6 @@
     "file": "entries/pages/shop/_page.ts.js",
     "name": "entries/pages/shop/_page.ts",
     "src": "src/routes/shop/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "_index.js"
-    ]
+    "isEntry": true
   }
 }
