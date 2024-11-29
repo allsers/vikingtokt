@@ -1,0 +1,241 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.C0pfaB4v.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_scheduler.C5382k6v.js",
+      "_index.m_iIgkgN.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js",
+      ".svelte-kit/generated/client-optimized/nodes/3.js",
+      ".svelte-kit/generated/client-optimized/nodes/4.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.BmsSY715.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.C5382k6v.js",
+      "_index.m_iIgkgN.js",
+      "_stores.k8I6xZcz.js",
+      "_entry.cI6M_VwQ.js"
+    ],
+    "css": [
+      "_app/immutable/assets/0.DChiU3e3.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/logo.CdfuFSTc.png",
+      "_app/immutable/assets/Sternbach Bold Italic.D4AFoV5R.otf",
+      "_app/immutable/assets/BebasNeue-Regular.B7dBxYXP.otf",
+      "_app/immutable/assets/Norsebold.3PA_I7Rm.otf",
+      "_app/immutable/assets/Norse.C-0-9eT-.otf"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.BFEVeBRL.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.C5382k6v.js",
+      "_index.m_iIgkgN.js",
+      "_stores.k8I6xZcz.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.DxDkn5gf.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_scheduler.C5382k6v.js",
+      "_index.m_iIgkgN.js",
+      "_wood-texture.CUqhIUo3.js"
+    ],
+    "css": [
+      "_app/immutable/assets/2.BQHTDTpS.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/BackgroundImage.BxOsKRml.png",
+      "_app/immutable/assets/norse.jcG7f86W.png",
+      "_app/immutable/assets/vikingsymbol.DmAip9nr.png"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/3.js": {
+    "file": "_app/immutable/nodes/3.Dh68tpeU.js",
+    "name": "nodes/3",
+    "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.R8ovVqwX.js",
+      "_scheduler.C5382k6v.js",
+      "_index.m_iIgkgN.js",
+      "_wood-texture.CUqhIUo3.js"
+    ],
+    "css": [
+      "_app/immutable/assets/3.BYZRS1-X.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/vikingbackground.DA5Dop9y.png"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/4.js": {
+    "file": "_app/immutable/nodes/4.DWYS4MtM.js",
+    "name": "nodes/4",
+    "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.R8ovVqwX.js",
+      "_scheduler.C5382k6v.js",
+      "_index.m_iIgkgN.js",
+      "_wood-texture.CUqhIUo3.js"
+    ],
+    "css": [
+      "_app/immutable/assets/4.DcE9kuVU.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/norse_chest.BBhegAeS.png",
+      "_app/immutable/assets/viking_brooch.XqKF26eU.jpg",
+      "_app/immutable/assets/shield.ygPuER1W.png",
+      "_app/immutable/assets/viking_sword.BbLyp8Z5.png",
+      "_app/immutable/assets/viking_axe.BJMKBJ0I.png",
+      "_app/immutable/assets/runestone.t8rt5ihR.png",
+      "_app/immutable/assets/viking_helmet.CVzI6K9W.png",
+      "_app/immutable/assets/cattle.DITkZ9zf.png",
+      "_app/immutable/assets/Hnefetafl.DY9TNmKa.png"
+    ]
+  },
+  "_entry.cI6M_VwQ.js": {
+    "file": "_app/immutable/chunks/entry.cI6M_VwQ.js",
+    "name": "entry",
+    "imports": [
+      "_scheduler.C5382k6v.js"
+    ]
+  },
+  "_index.R8ovVqwX.js": {
+    "file": "_app/immutable/chunks/index.R8ovVqwX.js",
+    "name": "index"
+  },
+  "_index.m_iIgkgN.js": {
+    "file": "_app/immutable/chunks/index.m_iIgkgN.js",
+    "name": "index",
+    "imports": [
+      "_scheduler.C5382k6v.js"
+    ]
+  },
+  "_scheduler.C5382k6v.js": {
+    "file": "_app/immutable/chunks/scheduler.C5382k6v.js",
+    "name": "scheduler"
+  },
+  "_stores.k8I6xZcz.js": {
+    "file": "_app/immutable/chunks/stores.k8I6xZcz.js",
+    "name": "stores",
+    "imports": [
+      "_entry.cI6M_VwQ.js"
+    ]
+  },
+  "_wood-texture.CUqhIUo3.js": {
+    "file": "_app/immutable/chunks/wood-texture.CUqhIUo3.js",
+    "name": "wood-texture",
+    "assets": [
+      "_app/immutable/assets/wood-texture.CG1FV0Ag.png"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.C6iQXvQv.js",
+    "name": "entry/start",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_entry.cI6M_VwQ.js"
+    ]
+  },
+  "src/lib/fonts/BebasNeue-Regular.otf": {
+    "file": "_app/immutable/assets/BebasNeue-Regular.B7dBxYXP.otf",
+    "src": "src/lib/fonts/BebasNeue-Regular.otf"
+  },
+  "src/lib/fonts/Norse.otf": {
+    "file": "_app/immutable/assets/Norse.C-0-9eT-.otf",
+    "src": "src/lib/fonts/Norse.otf"
+  },
+  "src/lib/fonts/Norsebold.otf": {
+    "file": "_app/immutable/assets/Norsebold.3PA_I7Rm.otf",
+    "src": "src/lib/fonts/Norsebold.otf"
+  },
+  "src/lib/fonts/Sternbach Bold Italic.otf": {
+    "file": "_app/immutable/assets/Sternbach Bold Italic.D4AFoV5R.otf",
+    "src": "src/lib/fonts/Sternbach Bold Italic.otf"
+  },
+  "src/lib/images/BackgroundImage.png": {
+    "file": "_app/immutable/assets/BackgroundImage.BxOsKRml.png",
+    "src": "src/lib/images/BackgroundImage.png"
+  },
+  "src/lib/images/Hnefetafl.png": {
+    "file": "_app/immutable/assets/Hnefetafl.DY9TNmKa.png",
+    "src": "src/lib/images/Hnefetafl.png"
+  },
+  "src/lib/images/cattle.png": {
+    "file": "_app/immutable/assets/cattle.DITkZ9zf.png",
+    "src": "src/lib/images/cattle.png"
+  },
+  "src/lib/images/logo.png": {
+    "file": "_app/immutable/assets/logo.CdfuFSTc.png",
+    "src": "src/lib/images/logo.png"
+  },
+  "src/lib/images/norse.png": {
+    "file": "_app/immutable/assets/norse.jcG7f86W.png",
+    "src": "src/lib/images/norse.png"
+  },
+  "src/lib/images/norse_chest.png": {
+    "file": "_app/immutable/assets/norse_chest.BBhegAeS.png",
+    "src": "src/lib/images/norse_chest.png"
+  },
+  "src/lib/images/runestone.png": {
+    "file": "_app/immutable/assets/runestone.t8rt5ihR.png",
+    "src": "src/lib/images/runestone.png"
+  },
+  "src/lib/images/shield.png": {
+    "file": "_app/immutable/assets/shield.ygPuER1W.png",
+    "src": "src/lib/images/shield.png"
+  },
+  "src/lib/images/viking_axe.png": {
+    "file": "_app/immutable/assets/viking_axe.BJMKBJ0I.png",
+    "src": "src/lib/images/viking_axe.png"
+  },
+  "src/lib/images/viking_brooch.jpg": {
+    "file": "_app/immutable/assets/viking_brooch.XqKF26eU.jpg",
+    "src": "src/lib/images/viking_brooch.jpg"
+  },
+  "src/lib/images/viking_helmet.png": {
+    "file": "_app/immutable/assets/viking_helmet.CVzI6K9W.png",
+    "src": "src/lib/images/viking_helmet.png"
+  },
+  "src/lib/images/viking_sword.png": {
+    "file": "_app/immutable/assets/viking_sword.BbLyp8Z5.png",
+    "src": "src/lib/images/viking_sword.png"
+  },
+  "src/lib/images/vikingbackground.png": {
+    "file": "_app/immutable/assets/vikingbackground.DA5Dop9y.png",
+    "src": "src/lib/images/vikingbackground.png"
+  },
+  "src/lib/images/vikingsymbol.png": {
+    "file": "_app/immutable/assets/vikingsymbol.DmAip9nr.png",
+    "src": "src/lib/images/vikingsymbol.png"
+  },
+  "src/lib/images/wood-texture.png": {
+    "file": "_app/immutable/assets/wood-texture.CG1FV0Ag.png",
+    "src": "src/lib/images/wood-texture.png"
+  }
+}
