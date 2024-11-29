@@ -17,46 +17,46 @@
     import hnefetafl from '$lib/images/Hnefetafl.png';
 </script>
 
-<div id="section1" style='background-image: url({base + chest});'>
-    <h1 style='background-image: url({base + wood_texture});'>Shop</h1>
+<div id="section1" style='background-image: url({ chest});'>
+    <h1 style='background-image: url({ wood_texture});'>Shop</h1>
     <div class="grid-container">
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + viking_brooch}" alt="Item 1">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ viking_brooch}" alt="Item 1">
             <h2>Viking brooch</h2>
             <p>DKK 269</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + shield}" alt="Item 2">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ shield}" alt="Item 2">
             <h2>Shield</h2>
             <p>DKK 799</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + viking_sword}" alt="Item 3">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ viking_sword}" alt="Item 3">
             <h2>Viking Sword</h2>
             <p>DKK 1359</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + viking_axe}" alt="Item 4">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ viking_axe}" alt="Item 4">
             <h2>Viking Axe</h2>
             <p>DKK 2639</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + runestone}" alt="Item 5">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ runestone}" alt="Item 5">
             <h2>Runestone</h2>
             <p>DKK 99</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + viking_helmet}" alt="Item 6">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ viking_helmet}" alt="Item 6">
             <h2>Viking Helmet</h2>
             <p>DKK 2249</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + cattle}" alt="Item 7">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ cattle}" alt="Item 7">
             <h2>Cattle</h2>
             <p>DKK 119900</p>
         </div>
-        <div class="item" style='background-image: url({base + wood_texture});'>
-            <img src="{base + hnefetafl}" alt="Item 8">
+        <div class="item" style='background-image: url({ wood_texture});'>
+            <img src="{ hnefetafl}" alt="Item 8">
             <h2>Hnefetafl</h2>
             <p>DKK 275</p>
         </div>
