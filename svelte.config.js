@@ -16,14 +16,7 @@ const config = {
       base: ""
     },
     prerender: {
-      handleHttpError: ({ path, referrer, message }) => {
-        // Ignore 404 errors
-        if (message.includes('404')) {
-          return;
-        }
-        // Throw other errors
-        throw new Error(message);
-      }
+
     }
   }
 };

@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import logo from '$lib/images/leikislogo2.png';
 </script>
 
@@ -17,9 +18,9 @@
 			<div class="footer-col">
 				<h4>Vargrclan</h4>
 				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/crew">Recruitment</a></li>
-					<li><a href="/shop">Shop</a></li>
+					<li><a href="{base}/">Home</a></li>
+					<li><a href="{base}/crew">Recruitment</a></li>
+					<li><a href="{base}/shop">Shop</a></li>
 				</ul>
 			</div>
 				

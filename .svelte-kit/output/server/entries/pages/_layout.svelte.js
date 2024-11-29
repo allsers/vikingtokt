@@ -12,7 +12,7 @@ function Header($$payload, $$props) {
   pop();
 }
 function Footer($$payload) {
-  $$payload.out += `<footer class="svelte-11rrqya"><div class="container svelte-11rrqya"><div class="sep svelte-11rrqya"><div class="logo svelte-11rrqya"><img${attr("src", leikislogo2)} id="logo" alt="logo" class="svelte-11rrqya"> <h1 class="svelte-11rrqya">Vargrclan</h1></div> <p>© 2024 Vargrclan</p></div> <div class="row svelte-11rrqya"><div class="footer-col"><h4 class="svelte-11rrqya">Vargrclan</h4> <ul class="svelte-11rrqya"><li class="svelte-11rrqya"><a href="/" class="svelte-11rrqya">Home</a></li> <li class="svelte-11rrqya"><a href="/crew" class="svelte-11rrqya">Recruitment</a></li> <li class="svelte-11rrqya"><a href="/shop" class="svelte-11rrqya">Shop</a></li></ul></div></div></div></footer>`;
+  $$payload.out += `<footer class="svelte-11rrqya"><div class="container svelte-11rrqya"><div class="sep svelte-11rrqya"><div class="logo svelte-11rrqya"><img${attr("src", leikislogo2)} id="logo" alt="logo" class="svelte-11rrqya"> <h1 class="svelte-11rrqya">Vargrclan</h1></div> <p>© 2024 Vargrclan</p></div> <div class="row svelte-11rrqya"><div class="footer-col"><h4 class="svelte-11rrqya">Vargrclan</h4> <ul class="svelte-11rrqya"><li class="svelte-11rrqya"><a${attr("href", `${stringify(base)}/`)} class="svelte-11rrqya">Home</a></li> <li class="svelte-11rrqya"><a${attr("href", `${stringify(base)}/crew`)} class="svelte-11rrqya">Recruitment</a></li> <li class="svelte-11rrqya"><a${attr("href", `${stringify(base)}/shop`)} class="svelte-11rrqya">Shop</a></li></ul></div></div></div></footer>`;
 }
 function _layout($$payload, $$props) {
   $$payload.out += `<div class="app svelte-skyukn">`;
