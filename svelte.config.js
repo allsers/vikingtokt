@@ -13,7 +13,17 @@ const config = {
       precompress: false
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/vikingtokt' : ''
+      base: ""
+    },
+    prerender: {
+      handleHttpError: ({ path, referrer, message }) => {
+        // Ignore 404 errors
+        if (message.includes('404')) {
+          return;
+        }
+        // Throw other errors
+        throw new Error(message);
+      }
     }
   }
 };

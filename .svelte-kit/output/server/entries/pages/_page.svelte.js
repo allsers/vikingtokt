@@ -2,14 +2,14 @@ import { Z as head, S as pop, W as stringify, Q as push } from "../../chunks/ind
 import { w as wood_texture } from "../../chunks/wood-texture.js";
 import { l as leikislogo2 } from "../../chunks/leikislogo2.js";
 import { a as attr } from "../../chunks/attributes.js";
-const background_image = "/vikingtokt/_app/immutable/assets/BackgroundImage.BxOsKRml.png";
-const norse_image = "/vikingtokt/_app/immutable/assets/norse.jcG7f86W.png";
-const vikingsymbol = "/vikingtokt/_app/immutable/assets/vikingsymbol.DmAip9nr.png";
-const bluebanner = "/vikingtokt/_app/immutable/assets/left-banner.uuAdaOhh.png";
-const shield = "/vikingtokt/_app/immutable/assets/vikingetogt_skjold.CVjRLIFQ.png";
-const axe = "/vikingtokt/_app/immutable/assets/vikingetogt_axe.CuAeyrr8.png";
-const leikislogo1 = "/vikingtokt/_app/immutable/assets/leikislogo1._ZBXKB8q.png";
-const flyer = "/vikingtokt/_app/immutable/assets/flyer.C4lnXARR.png";
+const background_image = "/_app/immutable/assets/BackgroundImage.BxOsKRml.png";
+const norse_image = "/_app/immutable/assets/norse.jcG7f86W.png";
+const vikingsymbol = "/_app/immutable/assets/vikingsymbol.DmAip9nr.png";
+const bluebanner = "/_app/immutable/assets/left-banner.uuAdaOhh.png";
+const shield = "/_app/immutable/assets/vikingetogt_skjold.CVjRLIFQ.png";
+const axe = "/_app/immutable/assets/vikingetogt_axe.CuAeyrr8.png";
+const leikislogo1 = "/_app/immutable/assets/leikislogo1._ZBXKB8q.png";
+const flyer = "/_app/immutable/assets/flyer.C4lnXARR.png";
 function _page($$payload, $$props) {
   push();
   head($$payload, ($$payload2) => {

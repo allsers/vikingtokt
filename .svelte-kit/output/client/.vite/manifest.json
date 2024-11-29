@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.BkNWGMnb.js",
+    "file": "_app/immutable/entry/app.DlGOZtHc.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
@@ -20,7 +20,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.Dsc6PnNM.js",
+    "file": "_app/immutable/nodes/0.DFv0l_tR.js",
     "name": "nodes/0",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
@@ -32,8 +32,8 @@
       "_attributes.BaQcBzAr.js",
       "_lifecycle.DuYTIIR2.js",
       "_store.DUebGK4l.js",
-      "_stores.BCNS1eiU.js",
-      "_entry.BTSVlTT6.js",
+      "_stores.CeFVGN0X.js",
+      "_entry.B7Jnqfe2.js",
       "_leikislogo2.DydL3cgi.js"
     ],
     "css": [
@@ -48,7 +48,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.B2Ro2ZqF.js",
+    "file": "_app/immutable/nodes/1.BNZRlGNQ.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
@@ -60,7 +60,7 @@
       "_render.CTk9GdCv.js",
       "_lifecycle.DuYTIIR2.js",
       "_store.DUebGK4l.js",
-      "_stores.BCNS1eiU.js"
+      "_stores.CeFVGN0X.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
@@ -158,8 +158,8 @@
       "_runtime.BrFAUK3q.js"
     ]
   },
-  "_entry.BTSVlTT6.js": {
-    "file": "_app/immutable/chunks/entry.BTSVlTT6.js",
+  "_entry.B7Jnqfe2.js": {
+    "file": "_app/immutable/chunks/entry.B7Jnqfe2.js",
     "name": "entry",
     "imports": [
       "_runtime.BrFAUK3q.js"
@@ -213,11 +213,11 @@
       "_runtime.BrFAUK3q.js"
     ]
   },
-  "_stores.BCNS1eiU.js": {
-    "file": "_app/immutable/chunks/stores.BCNS1eiU.js",
+  "_stores.CeFVGN0X.js": {
+    "file": "_app/immutable/chunks/stores.CeFVGN0X.js",
     "name": "stores",
     "imports": [
-      "_entry.BTSVlTT6.js"
+      "_entry.B7Jnqfe2.js"
     ]
   },
   "_svelte-head.BABkBnbW.js": {
@@ -235,12 +235,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.B70EOGES.js",
+    "file": "_app/immutable/entry/start.DZK_ke5-.js",
     "name": "entry/start",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.BTSVlTT6.js"
+      "_entry.B7Jnqfe2.js"
     ]
   },
   "src/lib/fonts/BebasNeue-Regular.otf": {

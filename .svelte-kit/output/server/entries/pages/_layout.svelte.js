@@ -3,7 +3,7 @@ import { p as page } from "../../chunks/stores.js";
 import { b as base } from "../../chunks/paths.js";
 import { a as attr } from "../../chunks/attributes.js";
 import { l as leikislogo2 } from "../../chunks/leikislogo2.js";
-const logo = "/vikingtokt/_app/immutable/assets/logo.CdfuFSTc.png";
+const logo = "/_app/immutable/assets/logo.CdfuFSTc.png";
 function Header($$payload, $$props) {
   push();
   var $$store_subs;

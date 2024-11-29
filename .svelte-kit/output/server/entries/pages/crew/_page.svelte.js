@@ -1,7 +1,7 @@
 import { Z as head, W as stringify } from "../../../chunks/index.js";
 import { w as wood_texture } from "../../../chunks/wood-texture.js";
 import { a as attr } from "../../../chunks/attributes.js";
-const viking_background = "/vikingtokt/_app/immutable/assets/vikingbackground.DA5Dop9y.png";
+const viking_background = "/_app/immutable/assets/vikingbackground.DA5Dop9y.png";
 function _page($$payload) {
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Vargrclan</title>`;

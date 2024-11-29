@@ -1,4 +1,4 @@
-let base = "/vikingtokt";
+let base = "";
 let assets = base;
 const initial = { base, assets };
 function override(paths) {
