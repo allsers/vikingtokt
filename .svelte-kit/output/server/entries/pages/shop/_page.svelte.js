@@ -1,15 +1,15 @@
-import { Y as head, Z as stringify } from "../../../chunks/index.js";
+import { Z as head, W as stringify } from "../../../chunks/index.js";
 import { w as wood_texture } from "../../../chunks/wood-texture.js";
 import { a as attr } from "../../../chunks/attributes.js";
-const chest = "/_app/immutable/assets/norse_chest.BBhegAeS.png";
-const viking_brooch = "/_app/immutable/assets/viking_brooch.XqKF26eU.jpg";
-const shield = "/_app/immutable/assets/shield.ygPuER1W.png";
-const viking_sword = "/_app/immutable/assets/viking_sword.BbLyp8Z5.png";
-const viking_axe = "/_app/immutable/assets/viking_axe.BJMKBJ0I.png";
-const runestone = "/_app/immutable/assets/runestone.t8rt5ihR.png";
-const viking_helmet = "/_app/immutable/assets/viking_helmet.CVzI6K9W.png";
-const cattle = "/_app/immutable/assets/cattle.DITkZ9zf.png";
-const hnefetafl = "/_app/immutable/assets/Hnefetafl.DY9TNmKa.png";
+const chest = "/vikingtokt/_app/immutable/assets/norse_chest.BBhegAeS.png";
+const viking_brooch = "/vikingtokt/_app/immutable/assets/viking_brooch.XqKF26eU.jpg";
+const shield = "/vikingtokt/_app/immutable/assets/shield.ygPuER1W.png";
+const viking_sword = "/vikingtokt/_app/immutable/assets/viking_sword.BbLyp8Z5.png";
+const viking_axe = "/vikingtokt/_app/immutable/assets/viking_axe.BJMKBJ0I.png";
+const runestone = "/vikingtokt/_app/immutable/assets/runestone.t8rt5ihR.png";
+const viking_helmet = "/vikingtokt/_app/immutable/assets/viking_helmet.CVzI6K9W.png";
+const cattle = "/vikingtokt/_app/immutable/assets/cattle.DITkZ9zf.png";
+const hnefetafl = "/vikingtokt/_app/immutable/assets/Hnefetafl.DY9TNmKa.png";
 function _page($$payload) {
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Vargrclan</title>`;

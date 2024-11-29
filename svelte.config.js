@@ -11,7 +11,10 @@ const config = {
       assets: 'build',
       fallback: null,
       precompress: false
-    })
+    }),
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/vikingtokt' : ''
+    }
   }
 };
 

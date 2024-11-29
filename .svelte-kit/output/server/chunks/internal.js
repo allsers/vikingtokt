@@ -1,18 +1,5 @@
 import { a as active_reaction, i as is_runes, D as DERIVED, b as BLOCK_EFFECT, d as derived_sources, s as state_unsafe_mutation, c as increment_version, e as DIRTY, f as set_signal_status, C as CLEAN, U as UNOWNED, g as schedule_effect, M as MAYBE_DIRTY, h as active_effect, j as BRANCH_EFFECT, k as new_deps, u as untracked_writes, l as set_untracked_writes, H as HYDRATION_ERROR, m as get_next_sibling, o as define_property, p as set_active_reaction, q as set_active_effect, r as is_array, t as init_operations, v as get_first_child, w as HYDRATION_START, x as HYDRATION_END, y as hydration_failed, z as clear_text_content, A as array_from, E as effect_root, F as create_text, G as branch, I as push, J as pop, K as component_context, L as get, N as LEGACY_PROPS, O as flush_sync, P as render, Q as push$1, R as setContext, S as pop$1 } from "./index.js";
-let base = "";
-let assets = base;
-const initial = { base, assets };
-function override(paths) {
-  base = paths.base;
-  assets = paths.assets;
-}
-function reset() {
-  base = initial.base;
-  assets = initial.assets;
-}
-function set_assets(path) {
-  assets = initial.assets = path;
-}
+import "./paths.js";
 let public_env = {};
 let safe_public_env = {};
 function set_private_env(environment) {
@@ -555,7 +542,7 @@ const options = {
   root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png"/>\n		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<title></title>\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
+    app: ({ head, body, assets, nonce, env }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets + '/favicon.png"/>\n		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<title></title>\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
     error: ({ status, message }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -627,29 +614,24 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "112cl9a"
+  version_hash: "4ur7bw"
 };
 async function get_hooks() {
   return {};
 }
 export {
-  assets as a,
-  base as b,
-  safe_public_env as c,
-  read_implementation as d,
-  options as e,
-  set_private_env as f,
-  prerendering as g,
-  set_public_env as h,
-  get_hooks as i,
-  set_safe_public_env as j,
-  set_read_implementation as k,
-  set_assets as l,
-  set_building as m,
-  set_manifest as n,
-  override as o,
+  safe_public_env as a,
+  set_private_env as b,
+  prerendering as c,
+  set_public_env as d,
+  set_safe_public_env as e,
+  set_read_implementation as f,
+  get_hooks as g,
+  set_building as h,
+  set_manifest as i,
+  set_prerendering as j,
+  options as o,
   public_env as p,
-  set_prerendering as q,
-  reset as r,
+  read_implementation as r,
   safe_not_equal as s
 };

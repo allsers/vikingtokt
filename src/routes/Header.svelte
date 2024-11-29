@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import logo from '$lib/images/logo.png';
 </script>
 
@@ -8,14 +9,14 @@
 	<nav>
 		<ul>			
 			<li aria-current={$page.url.pathname === '/crew' ? 'page' : undefined}>
-				<a href="/crew">Crew</a>
+				<a href="{base}/crew">Crew</a>
 			</li>
 			<li id = "flex" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<img id="logo" src="{logo}" alt="logo">
-				<a href="/">Vargrclan</a>
+				<a href="{base}/">Vargrclan</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/shop' ? 'page' : undefined}>
-				<a href="/shop">Shop</a>
+				<a href="{base}/shop">Shop</a>
 			</li>
 		</ul>
 

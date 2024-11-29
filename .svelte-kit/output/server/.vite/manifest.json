@@ -5,7 +5,8 @@
     "src": ".svelte-kit/generated/server/internal.js",
     "isEntry": true,
     "imports": [
-      "_internal.js"
+      "_internal.js",
+      "_paths.js"
     ]
   },
   "_attributes.js": {
@@ -31,7 +32,8 @@
     "file": "chunks/internal.js",
     "name": "internal",
     "imports": [
-      "_index.js"
+      "_index.js",
+      "_paths.js"
     ]
   },
   "_leikislogo2.js": {
@@ -40,6 +42,10 @@
     "assets": [
       "_app/immutable/assets/leikislogo2.2TjEnDla.png"
     ]
+  },
+  "_paths.js": {
+    "file": "chunks/paths.js",
+    "name": "paths"
   },
   "_stores.js": {
     "file": "chunks/stores.js",
@@ -74,8 +80,9 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_internal.js",
-      "_exports.js"
+      "_paths.js",
+      "_exports.js",
+      "_internal.js"
     ]
   },
   "src/lib/fonts/BebasNeue-Regular.otf": {
@@ -186,11 +193,12 @@
     "imports": [
       "_index.js",
       "_stores.js",
+      "_paths.js",
       "_attributes.js",
       "_leikislogo2.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Bypv6Qrx.css"
+      "_app/immutable/assets/_layout.BQedYuhB.css"
     ],
     "assets": [
       "_app/immutable/assets/logo.CdfuFSTc.png",

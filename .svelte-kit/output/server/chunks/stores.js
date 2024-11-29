@@ -1,4 +1,4 @@
-import { X as getContext } from "./index.js";
+import { Y as getContext } from "./index.js";
 import "./exports.js";
 function get(key, parse = JSON.parse) {
   try {
