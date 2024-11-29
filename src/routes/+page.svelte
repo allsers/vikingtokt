@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+
 	import background_image from '$lib/images/BackgroundImage.png';
 	import wood_texture from '$lib/images/wood-texture.png';
 	import norse_image from '$lib/images/norse.png';
@@ -9,7 +12,7 @@
 	import leikislogo1 from '$lib/images/leikislogo1.png';
 	import leikislogo2 from '$lib/images/leikislogo2.png';
 	import flyer from '$lib/images/flyer.png';
-	import { onMount } from 'svelte';
+	
 
     onMount(() => {
 		window.addEventListener('scroll', function() {
@@ -26,13 +29,13 @@
 	<title>Vargrclan</title>
 	<meta name="description" content="Viking home page" />
 </svelte:head>
-<section id = "section1" style='background-image: url({background_image});'>
+<section id = "section1" style='background-image: url({base + background_image});'>
 	<h1>Óttalausir Ráðar Norðr</h1>
 	<h2 id="eng-slogan">Fearless Raiders of the North</h2>
 </section>
 
-<section id = "section2" style='background-image: url({norse_image});'>
-	<div class="flex" style='background-image: url({wood_texture});'>
+<section id = "section2" style='background-image: url({base + norse_image});'>
+	<div class="flex" style='background-image: url({base + wood_texture});'>
 		<h2>Our History</h2>
 		<div class="text-content">
 			<p class="full-text">
@@ -45,27 +48,27 @@
 	</div>
 </section>
 
-<section id = "section3" style='background-image: url({vikingsymbol});'>
+<section id = "section3" style='background-image: url({base + vikingsymbol});'>
 	<div class="showcase">
 		<div class="imgs">
 			<div class="side">
-				<img id="banner" src="{bluebanner}" alt="banner">
+				<img id="banner" src="{base + bluebanner}" alt="banner">
 			</div>
 			<div class="mid">
-				<h2 style="background-image: url({wood_texture});" id="showcase-header">Showcase</h2>
-				<img src="{shield}" alt="shield" id="shield">
+				<h2 style="background-image: url({base + wood_texture});" id="showcase-header">Showcase</h2>
+				<img src="{base + shield}" alt="shield" id="shield">
 				<div class="row">
-					<img id="leikislogo" src="{leikislogo1}" alt="logo1">
-					<img src="{axe}" alt="axe">
-					<img id="leikislogo" src="{leikislogo2}" alt="logo2">
+					<img id="leikislogo" src="{base + leikislogo1}" alt="logo1">
+					<img src="{base + axe}" alt="axe">
+					<img id="leikislogo" src="{base + leikislogo2}" alt="logo2">
 				</div>
 			</div>
 			<div class="side">
-				<img id="banner" src="{bluebanner}" alt="banner">
+				<img id="banner" src="{base + bluebanner}" alt="banner">
 			</div>
 		</div>
 		<div class="center">
-			<img id="flyer" src="{flyer}" alt="flyer">
+			<img id="flyer" src="{base + flyer}" alt="flyer">
 		</div>	
 		
 	</div>
