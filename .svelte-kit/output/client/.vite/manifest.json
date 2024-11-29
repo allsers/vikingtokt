@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.Begdo4OV.js",
+    "file": "_app/immutable/entry/app.B8TTHlfd.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
@@ -20,7 +20,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.BNgEgYJ1.js",
+    "file": "_app/immutable/nodes/0.B5Juz5LQ.js",
     "name": "nodes/0",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
@@ -32,12 +32,13 @@
       "_attributes.BaQcBzAr.js",
       "_lifecycle.DuYTIIR2.js",
       "_store.DUebGK4l.js",
-      "_stores.Bpouor20.js",
-      "_entry.BkEBPz_Z.js",
+      "_stores.CV8KqtI_.js",
+      "_paths.Ezu0hH9H.js",
+      "_entry.ab5LTOWV.js",
       "_leikislogo2.DydL3cgi.js"
     ],
     "css": [
-      "_app/immutable/assets/0.GfFljXpE.css"
+      "_app/immutable/assets/0.DgS42TmH.css"
     ],
     "assets": [
       "_app/immutable/assets/logo.CdfuFSTc.png",
@@ -48,7 +49,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.I72PieA4.js",
+    "file": "_app/immutable/nodes/1.DwfswRJW.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
@@ -60,11 +61,11 @@
       "_render.CTk9GdCv.js",
       "_lifecycle.DuYTIIR2.js",
       "_store.DUebGK4l.js",
-      "_stores.Bpouor20.js"
+      "_stores.CV8KqtI_.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.BPrLEYeX.js",
+    "file": "_app/immutable/nodes/2.D5G4W9-0.js",
     "name": "nodes/2",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
@@ -77,6 +78,7 @@
       "_attributes.BaQcBzAr.js",
       "_lifecycle.DuYTIIR2.js",
       "_index-client.BFLvA0Sv.js",
+      "_paths.Ezu0hH9H.js",
       "_wood-texture.CUqhIUo3.js",
       "_leikislogo2.DydL3cgi.js"
     ],
@@ -116,7 +118,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/4.js": {
-    "file": "_app/immutable/nodes/4.y5_1eljw.js",
+    "file": "_app/immutable/nodes/4.CRnlahb-.js",
     "name": "nodes/4",
     "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
     "isEntry": true,
@@ -127,10 +129,11 @@
       "_runtime.BrFAUK3q.js",
       "_svelte-head.BABkBnbW.js",
       "_attributes.BaQcBzAr.js",
+      "_paths.Ezu0hH9H.js",
       "_wood-texture.CUqhIUo3.js"
     ],
     "css": [
-      "_app/immutable/assets/4.D1RpyY23.css"
+      "_app/immutable/assets/4.Ckufepl7.css"
     ],
     "assets": [
       "_app/immutable/assets/norse_chest.BBhegAeS.png",
@@ -158,11 +161,12 @@
       "_runtime.BrFAUK3q.js"
     ]
   },
-  "_entry.BkEBPz_Z.js": {
-    "file": "_app/immutable/chunks/entry.BkEBPz_Z.js",
+  "_entry.ab5LTOWV.js": {
+    "file": "_app/immutable/chunks/entry.ab5LTOWV.js",
     "name": "entry",
     "imports": [
-      "_runtime.BrFAUK3q.js"
+      "_runtime.BrFAUK3q.js",
+      "_paths.Ezu0hH9H.js"
     ]
   },
   "_index-client.BFLvA0Sv.js": {
@@ -193,6 +197,10 @@
       "_runtime.BrFAUK3q.js"
     ]
   },
+  "_paths.Ezu0hH9H.js": {
+    "file": "_app/immutable/chunks/paths.Ezu0hH9H.js",
+    "name": "paths"
+  },
   "_render.CTk9GdCv.js": {
     "file": "_app/immutable/chunks/render.CTk9GdCv.js",
     "name": "render",
@@ -213,11 +221,11 @@
       "_runtime.BrFAUK3q.js"
     ]
   },
-  "_stores.Bpouor20.js": {
-    "file": "_app/immutable/chunks/stores.Bpouor20.js",
+  "_stores.CV8KqtI_.js": {
+    "file": "_app/immutable/chunks/stores.CV8KqtI_.js",
     "name": "stores",
     "imports": [
-      "_entry.BkEBPz_Z.js"
+      "_entry.ab5LTOWV.js"
     ]
   },
   "_svelte-head.BABkBnbW.js": {
@@ -235,12 +243,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.BJAsQBbM.js",
+    "file": "_app/immutable/entry/start.ZwKoFoHE.js",
     "name": "entry/start",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.BkEBPz_Z.js"
+      "_entry.ab5LTOWV.js"
     ]
   },
   "src/lib/fonts/BebasNeue-Regular.otf": {

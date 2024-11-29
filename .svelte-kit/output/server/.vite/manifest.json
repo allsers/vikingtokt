@@ -198,7 +198,7 @@
       "_leikislogo2.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Bypv6Qrx.css"
+      "_app/immutable/assets/_layout.3D5SxP0r.css"
     ],
     "assets": [
       "_app/immutable/assets/logo.CdfuFSTc.png",
@@ -215,6 +215,7 @@
     "isEntry": true,
     "imports": [
       "_index.js",
+      "_paths.js",
       "_wood-texture.js",
       "_leikislogo2.js",
       "_attributes.js"
@@ -269,11 +270,12 @@
     "isEntry": true,
     "imports": [
       "_index.js",
+      "_paths.js",
       "_wood-texture.js",
       "_attributes.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.D1RpyY23.css"
+      "_app/immutable/assets/_page.Ckufepl7.css"
     ],
     "assets": [
       "_app/immutable/assets/norse_chest.BBhegAeS.png",
